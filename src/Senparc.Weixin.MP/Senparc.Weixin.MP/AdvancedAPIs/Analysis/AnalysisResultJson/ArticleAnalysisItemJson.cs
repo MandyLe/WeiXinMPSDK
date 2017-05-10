@@ -213,6 +213,10 @@ namespace Senparc.Weixin.MP.AdvancedAPIs.Analysis
         /// </summary>
         public int ref_hour { get; set; }
         /// <summary>
+        /// 访问入口，代表用户从哪里进入来阅读该图文。0:会话;1.好友;2.朋友圈;3.腾讯微博;4.历史消息页;5.其他
+        /// </summary>
+        public int user_source { get; set; }
+        /// <summary>
         /// 图文页（点击群发图文卡片进入的页面）的阅读人数
         /// </summary>
         public int int_page_read_user { get; set; }
