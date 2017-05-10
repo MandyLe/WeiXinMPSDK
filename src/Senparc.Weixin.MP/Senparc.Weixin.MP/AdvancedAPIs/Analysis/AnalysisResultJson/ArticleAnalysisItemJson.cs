@@ -197,6 +197,70 @@ namespace Senparc.Weixin.MP.AdvancedAPIs.Analysis
         /// 收藏的次数
         /// </summary>
         public int add_to_fav_count { get; set; }
+        /// <summary>
+        /// 公众号会话阅读人数
+        /// </summary>
+        public int int_page_from_session_read_user { get; set; }
+        /// <summary>
+        /// 公众号会话阅读次数
+        /// </summary>
+        public int int_page_from_session_read_count { get; set; }
+        /// <summary>
+        /// 历史消息页阅读人数
+        /// </summary>
+        public int int_page_from_hist_msg_read_user { get; set; }
+        /// <summary>
+        /// 历史消息页阅读次数
+        /// </summary>
+        public int int_page_from_hist_msg_read_count { get; set; }
+        /// <summary>
+        /// 朋友圈阅读人数
+        /// </summary>
+        public int int_page_from_feed_read_user { get; set; }
+        /// <summary>
+        /// 朋友圈阅读次数
+        /// </summary>
+        public int int_page_from_feed_read_count { get; set; }
+        /// <summary>
+        /// 好友转发阅读人数
+        /// </summary>
+        public int int_page_from_friends_read_user { get; set; }
+        /// <summary>
+        /// 好友转发阅读次数
+        /// </summary>
+        public int int_page_from_friends_read_count { get; set; }
+        /// <summary>
+        /// 其他场景阅读人数
+        /// </summary>
+        public int int_page_from_other_read_user { get; set; }
+        /// <summary>
+        /// 其他场景阅读次数
+        /// </summary>
+        public int int_page_from_other_read_count { get; set; }
+        /// <summary>
+        /// 公众号会话转发朋友圈人数
+        /// </summary>
+        public int feed_share_from_session_user { get; set; }
+        /// <summary>
+        ///  公众号会话转发朋友圈次数
+        /// </summary>
+        public int feed_share_from_session_cnt { get; set; }
+        /// <summary>
+        /// 朋友圈转发朋友圈人数
+        /// </summary>
+        public int feed_share_from_feed_user { get; set; }
+        /// <summary>
+        /// 朋友圈转发朋友圈次数
+        /// </summary>
+        public int feed_share_from_feed_cnt { get; set; }
+        /// <summary>
+        /// 其他场景转发朋友圈人数
+        /// </summary>
+        public int feed_share_from_other_user { get; set; }
+        /// <summary>
+        /// 其他场景转发朋友圈次数
+        /// </summary>
+        public int feed_share_from_other_cnt { get; set; }
     }
 
     /// <summary>
